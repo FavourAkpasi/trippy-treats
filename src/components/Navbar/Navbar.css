@@ -1,0 +1,22 @@
+nav {
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  height: 4rem;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+  font-weight: bold;
+}
+nav .navlink {
+  margin: 0 2rem;
+}
+#icon {
+  display: none;
+}
+.bg-blur {
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: 0.3s ease all;
+}
