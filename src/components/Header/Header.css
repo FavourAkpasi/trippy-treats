@@ -6,10 +6,10 @@ header {
   position: relative;
 }
 .large-header {
-  background-image: url("images/background2.jpg");
+  background-image: url("/images/background2.jpg");
 }
 .mobile-header {
-  background-image: url("images/port1.jpg");
+  background-image: url("/images/port1.jpg");
 }
 .large-header > img {
   position: absolute;
