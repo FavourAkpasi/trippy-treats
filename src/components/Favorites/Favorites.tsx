@@ -1,15 +1,19 @@
 import React from "react";
-import "./Loading.css";
+import "./Favorites.css";
+import { Button } from "@mui/material";
+import FavoriteBorderIcon from "@mui/icons-material/FavoriteBorder";
+import InfoOutlinedIcon from "@mui/icons-material/InfoOutlined";
+import { productData } from "../../Data";
 
-const Loading = () => {
+const Favorites = () => {
   return (
-    <section className="loading">
-      <h2>Our Signature Treats</h2>
-      <img src="/images/loading.gif" alt="loading" />
-      {/* <div className="product-container">
+    <section className="favorites">
+      <h2>Customer's Favourites</h2>
+      <div className="product-container">
         {productData.map((product) => (
           <div className="product" key={product.id}>
             <FavoriteBorderIcon className="heart" />
+            <InfoOutlinedIcon className="info" />
             <img src={product.img} alt={product.name} width="70%" />
             <div className="description">
               <div>
@@ -24,9 +28,9 @@ const Loading = () => {
             </div>
           </div>
         ))}
-      </div> */}
+      </div>
     </section>
   );
 };
 
-export default Loading;
+export default Favorites;

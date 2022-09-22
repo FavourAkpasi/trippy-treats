@@ -9,14 +9,16 @@ nav {
   align-items: center;
   color: #fff;
   font-weight: bold;
+  transition: 0.4s ease all;
+  z-index: 9;
 }
 nav .navlink {
   margin: 0 2rem;
 }
 #icon {
-  display: none;
+  opacity: 0;
+  transition: 0.4s ease all;
 }
 .bg-blur {
   background-color: rgba(0, 0, 0, 0.8);
-  transition: 0.3s ease all;
 }

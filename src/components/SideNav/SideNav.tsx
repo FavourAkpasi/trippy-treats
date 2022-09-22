@@ -38,7 +38,7 @@ function SideNav({ openSideNav, setOpenSideNav }: SideNavProps) {
       </ul>
       {openSideNav && (
         <button id="close_btn" onClick={() => setOpenSideNav(!openSideNav)}>
-          <CloseIcon />
+          <CloseIcon color="success" />
         </button>
       )}
     </div>

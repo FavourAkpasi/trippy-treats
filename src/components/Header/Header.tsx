@@ -13,7 +13,7 @@ const Header = () => {
     };
     window.addEventListener("resize", handleResize);
   }, [viewportWidth]);
-  return <>{viewportWidth < 600 ? <HeaderMobile /> : <HeaderLarge />}</>;
+  return <>{viewportWidth < 700 ? <HeaderMobile /> : <HeaderLarge />}</>;
 };
 
 export default Header;

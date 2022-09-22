@@ -11,10 +11,10 @@ const NavbarMobile = () => {
     window.onscroll = function () {
       var currentScrollPos = window.pageYOffset;
       if (currentScrollPos > 200) {
-        icon.style.display = "block";
+        icon.style.opacity = "1";
         nav.classList.add("bg-blur");
       } else {
-        icon.style.display = "none";
+        icon.style.opacity = "0";
         nav.classList.remove("bg-blur");
       }
     };

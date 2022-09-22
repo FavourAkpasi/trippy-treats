@@ -9,7 +9,7 @@ header {
   background-image: url("/images/background2.jpg");
 }
 .mobile-header {
-  background-image: url("/images/port1.jpg");
+  background-image: url("/images/port1.png");
 }
 .large-header > img {
   position: absolute;
@@ -19,11 +19,11 @@ header {
 }
 .large-header > div {
   position: absolute;
-  top: 20rem;
+  top: 50%;
   left: 7rem;
-  width: 20rem;
+  width: 40%;
   color: #f2f2f2;
-  font-size: 0.8rem;
+  font-size: 1rem;
 }
 .mobile-header > img {
   position: absolute;
@@ -32,17 +32,17 @@ header {
   left: 0;
   right: 0;
   margin: auto;
-  width: 15rem;
+  width: 10rem;
 }
 .mobile-header > div {
   position: absolute;
-  top: 15rem;
+  top: 40%;
   left: 3rem;
-  width: 17rem;
+  width: 60%;
   color: #f2f2f2;
   font-size: 0.8rem;
 }
 
-/* header > div > h2 {
-  font-family: "Montserrat", sans-serif;
-} */
+header > div > p {
+  background-color: rgba(0, 0, 0, 0.3);
+}
