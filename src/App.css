@@ -14,7 +14,8 @@ a {
 }
 
 /* hover */
-.navlink:hover {
+.navlink:hover,
+footer > .socials svg:hover {
   color: #7dce13;
   cursor: pointer;
 }
