@@ -15,7 +15,7 @@ const Footer = () => {
         <a href="http://twitter.com/trippytreatss" target="_blank">
           <Twitter />
         </a>
-        <a href="https://wa.me/%2B2348163429106" target="_blank">
+        <a href="https://wa.me/2348159821641" target="_blank">
           <WhatsApp />
         </a>
       </div>
