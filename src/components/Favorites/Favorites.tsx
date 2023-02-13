@@ -11,7 +11,7 @@ const Favorites = () => {
   function handleInfoClick(e: React.MouseEvent<SVGSVGElement, MouseEvent>) {
     e.stopPropagation;
     setInfoClicked(!infoClicked);
-    // console.log({ infoClicked });
+    console.log({ infoClicked });
   }
 
   return (
@@ -19,13 +19,18 @@ const Favorites = () => {
       <h2>Customer's Favourites</h2>
       <div className="product-container">
         {productData.map((product) => (
-          <div className="product" key={product.id}>
+          <div
+            className="product"
+            key={product.id}
+            onClick={() => console.log(product)}
+          >
             {infoClicked && (
               <div className="product-info">
                 <div>INFO: {product.info}</div>
                 <div>TOPPINGS: {product.toppings}</div>
               </div>
             )}
+
             <FavoriteBorderIcon className="heart" />
             <InfoOutlinedIcon
               className="info"

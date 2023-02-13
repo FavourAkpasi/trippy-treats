@@ -5,6 +5,7 @@ type ProductData = {
   price: string;
   info: string;
   toppings: string;
+  active: boolean;
 };
 
 export const productData: ProductData[] = [
@@ -15,6 +16,7 @@ export const productData: ProductData[] = [
     price: "₦ 1,500",
     info: "order contains a Pack of 4 Chocolate cookies",
     toppings: "none",
+    active: false,
   },
   {
     id: 2,
@@ -23,6 +25,7 @@ export const productData: ProductData[] = [
     price: "₦ 4,500",
     info: "order contains a Pack of 4 Vanilla cookies",
     toppings: "none",
+    active: false,
   },
   {
     id: 3,
@@ -31,6 +34,7 @@ export const productData: ProductData[] = [
     price: "₦ 3,500",
     info: "order contains a Slice of Chocolate Fudge brownies",
     toppings: "none",
+    active: false,
   },
   {
     id: 4,
@@ -39,6 +43,7 @@ export const productData: ProductData[] = [
     price: "₦ 1,500",
     info: "order contains a pack of 4 Chocolate cookies",
     toppings: "Chocolate-Chips",
+    active: false,
   },
   {
     id: 5,
@@ -47,6 +52,7 @@ export const productData: ProductData[] = [
     price: "₦ 4,500",
     info: "order contains a pack of 4 Chocolate Cupcakes",
     toppings: "none",
+    active: false,
   },
   {
     id: 6,
@@ -55,14 +61,16 @@ export const productData: ProductData[] = [
     price: "₦ 4,500",
     info: "order contains a pack of 6 Highly Infused THC Gummies",
     toppings: "none",
+    active: false,
   },
   {
     id: 7,
     img: "/images/cake-choco.png",
     name: "Cake Slice",
     price: "₦ 2,500",
-    info: "order contains a Slice of Vanilla Cake",
+    info: "order contains a Slice of Chocolate Cake",
     toppings: "none",
+    active: false,
   },
   {
     id: 8,
@@ -71,6 +79,7 @@ export const productData: ProductData[] = [
     price: "₦ 2,500",
     info: "order contains a slice of Vanilla Cake",
     toppings: "none",
+    active: false,
   },
   {
     id: 9,
@@ -79,5 +88,6 @@ export const productData: ProductData[] = [
     price: "₦ 4,500",
     info: "order contains a pack of 4 Vanilla cookies",
     toppings: "M&Ms",
+    active: false,
   },
 ];
