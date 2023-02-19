@@ -1,0 +1,48 @@
+header {
+  background-repeat: no-repeat;
+  background-size: cover;
+  max-width: 100vw;
+  height: 100vh;
+  position: relative;
+}
+.large-header {
+  background-image: url('/src/assets/images/background2.jpg');
+}
+.mobile-header {
+  background-image: url('/src/assets/images/port1.png');
+}
+.large-header > img {
+  position: absolute;
+  top: 5rem;
+  left: 7rem;
+  width: 20rem;
+}
+.large-header > div {
+  position: absolute;
+  top: 50%;
+  left: 7rem;
+  width: 40%;
+  color: #f2f2f2;
+  font-size: 1rem;
+}
+.mobile-header > img {
+  position: absolute;
+  display: flex;
+  top: 5rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 10rem;
+}
+.mobile-header > div {
+  position: absolute;
+  top: 40%;
+  left: 3rem;
+  width: 60%;
+  color: #f2f2f2;
+  font-size: 0.8rem;
+}
+
+header > div > p {
+  background-color: rgba(0, 0, 0, 0.3);
+}
