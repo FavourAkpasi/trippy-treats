@@ -1,0 +1,27 @@
+name: Development Workflow
+
+on: [push]
+
+jobs:
+  ci:
+    name: CI Pipeline
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        node-version: ['16.x', '18.x']
+
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@v2
+
+      - name: Setup Nodejs
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{matrix.node-version}}
+
+      - name: Install packages
+        run: yarn install
+
+      - name: Run build
+        run: yarn build

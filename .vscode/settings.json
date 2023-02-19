@@ -1,0 +1,11 @@
+{
+  "editor.wordWrap": "on",
+  "editor.foldingImportsByDefault": true,
+  "editor.formatOnSave": true,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": true
+  },
+  "js/ts.implicitProjectConfig.checkJs": true,
+  "prettier.configPath": "",
+  "prettier.jsxBracketSameLine": true
+}
